@@ -6,8 +6,11 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 64px;
 }
 
 .logo {
@@ -33,7 +36,8 @@
     display: flex;
     width: 80%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;     
+
 }
 
 .budget {
@@ -74,4 +78,45 @@
 
 .budget-image {
     margin-right: 48px;
+}
+
+footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    background: #13183F;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+}
+
+
+
+
+
+
+.footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.bottom-button {
+    color: white;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 28px;
+    text-decoration: none;
 }
