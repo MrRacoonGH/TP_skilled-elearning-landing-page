@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+body {
+ background-color: #F0F1FF ;
+ ;
+}
+
 
 .header {
     width: 80%;
@@ -80,12 +85,76 @@
     margin-right: 48px;
 }
 
-footer {
+
+.card {
+    width: 80%;
+    margin: auto;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+}
+
+
+.top-card {
+    width: 352px;
+    height: 350px;
+    background-color: white;
+    border-radius: 14px;
+    padding-top: 64px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: 32px;
+}
+
+h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    color :#13183F;
+
+}
+
+.p-card {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    color: #83869A;
+    padding-bottom: 52px;
+}
+
+.a-card {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    color: #F74780 ;
+    text-decoration: none;
+
+}
+
+
+.most-popular {
+    width: 352px;
+    height: 322px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 14px;
+    padding-top: 64px;
+    margin-top: 28px;
+} 
+
+.mp-texte {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    width: 288px;
+    margin-left: 32px;
+    
+}
+
+.footer {
     width: 80%;
     display: flex;
     justify-content: space-between;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
 }
 
 footer {
@@ -97,16 +166,6 @@ footer {
 
 
 
-
-
-
-.footer {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 
 .bottom-button {
